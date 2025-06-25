@@ -60,6 +60,18 @@ To build an interactive tool that:
    
 The best results were achieved using SVC after removing underperforming emotion classes (like 'Disgust').
 
+## 📊 Model Performance
+
+| Metric         | Value        |
+|----------------|--------------|
+| Test Accuracy  | **80.75%**    |
+| Macro F1-score | **80.9%**    |
+| Macro Recall  | **80.6%**    |
+| Best Model     | SVC (after PCA & Scaling)
+| Classes        | Angry, Calm, Fearful, Happy, Neutral, Sad, Surprised
+
+> The class "Disgust" was dropped due to overlap and low separability, improving model generalization.
+
 ## Tech Stack
 
 • Python 3.x  
