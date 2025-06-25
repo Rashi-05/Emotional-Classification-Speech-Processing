@@ -16,18 +16,16 @@ A machine learning-powered web application that identifies emotions in speech au
 Emotion-Recognition/
 ├── app.py                   # Streamlit frontend
 ├── predict.py               # Audio prediction logic
-├── train_model.py           # Full training pipeline (SVC/MLP + preprocessing)
+├── notebook.ipynb            # Full training pipeline 
 ├── requirements.txt         # Dependencies
 ├── README.md                # Documentation
 │
 ├── model/                   # Saved models and scalers
-│   ├── emotion_model.pkl
-│   ├── scaler.pkl
-│   ├── pca.pkl
-│   └── label_encoder.pkl
-│
-└── test_audio/              # Sample input files
-    └── sample.wav
+    ├── emotion_model.pkl
+    ├── scaler.pkl
+    ├── pca.pkl
+    └── label_encoder.pkl
+
 ```
 ---
 
