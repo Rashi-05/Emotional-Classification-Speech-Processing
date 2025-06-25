@@ -7,7 +7,7 @@ A machine learning-powered web application that identifies emotions in speech au
 
 ## Live Demo
 
-**Streamlit App**: https://2607-34-19-45-180.ngrok-free.app/
+**Streamlit App**: https://aed0-34-19-45-180.ngrok-free.app/
 
 ---
 
